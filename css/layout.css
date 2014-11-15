@@ -30,7 +30,7 @@
 }
 
 [class*="ba-grid-width-"]{
-	margin-left: -20px;
+	/*margin-left: 20px;*/
 }
 [class*="ba-grid-width-"] + [class*="ba-grid-width-"] {
 	margin-top: 20px;
