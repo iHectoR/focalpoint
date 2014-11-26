@@ -3,17 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	<title>focalpoint</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/reset.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 	<link rel="stylesheet" href="css/layout.css"/>
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+
+
 </head>
 <body>
 <header class="top-header">
 	<div class="container cf">
 		<a class="logo" href="#"></a>
-		<nav class="top-menu">
-			<ul>
+		<nav>
+			<!--<button class="menu-toggle"><span class="line"></span></button>-->
+			<label for="menu-checkbox" class="menu-toggle"><span class="line"></span></label>
+			<input id="menu-checkbox" type="checkbox">
+			<div class="overlay"></div>
+			<ul class="top-menu js-menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contacts</a></li>
 				<li><a class="blog" href="#">Blog</a></li>
 				<li><a class="login" href="#">Login</a></li>
 			</ul>
